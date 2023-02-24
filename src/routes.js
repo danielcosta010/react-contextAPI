@@ -19,11 +19,12 @@ function Routes() {
             <Route path='/feira'>
               <Feira />
             </Route>
+            <Route path='/carrinho'>
+              <Carrinho />
+            </Route>
           </CarrinhoProvider>
         </UsuarioProvider>
-        <Route>
-          <Carrinho path='/carriho' />
-        </Route>
+
       </Switch>
     </BrowserRouter>
   )
